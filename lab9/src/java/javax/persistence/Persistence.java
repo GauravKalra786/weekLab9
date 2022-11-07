@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dataacess;
+package javax.persistence;
 
 /**
  *
  * @author kalra
  */
-public class DButil {
+public class Persistence {
     
 }

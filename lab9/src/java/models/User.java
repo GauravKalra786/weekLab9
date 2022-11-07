@@ -10,5 +10,9 @@ package models;
  * @author kalra
  */
 public class User {
+
+    public User(String email, String first_name, String last_name, String password, Role role) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

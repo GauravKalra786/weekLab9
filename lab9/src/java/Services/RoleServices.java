@@ -3,12 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Services;
+package services;
+
+import dataaccess.RoleDB;
+import java.util.List;
+import models.Role;
 
 /**
  *
- * @author kalra
+ * @author awarsyle
  */
 public class RoleServices {
+    public Role get(int roleID) throws Exception {
+        RoleDB roleDB = new RoleDB();
+        Role role = roleDB.getrole(roleID);
+        return role;
+    }
     
+    public List<Role> getAll() throws Exception {
+        RoleDB roleDB = new RoleDB();
+        return roleDB.getAll();
+    }
 }
